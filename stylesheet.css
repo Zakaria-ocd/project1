@@ -94,22 +94,26 @@
 .material{
     margin-top: 14vh;
     margin-left: 5vw;
-    flex-basis: 25vw;
+    width:20% ;
 }
 .material h1{
     font-weight: 500;
     font-size: 2.4em;
 }
-.material p{
+.material pre{
     color:  rgb(104, 102, 102);
-    line-height: 4vh;
+    line-height: 2.5vh;
+    margin-left: -4vw;
+    margin-top: 8vh;
+    width: 28vw;
+    text-align: justify;
 }
 .material-button{
     background-color: black;
     color: white;
     cursor: pointer;
     font-weight:600 ;
-    margin-top: 2vh;
+    margin-top: 4vh;
     border: none;
     border-radius: 50px;
     height:8vh;
@@ -258,8 +262,9 @@ width: 18vw;
 }
 .elem{
     margin-left: 7vw;
-    width: 24%;
+    width: 27%;
     display: flex;
+    margin-right: -3vw;
 }
 .PR{
     height: 22vh;
@@ -276,7 +281,7 @@ width: 18vw;
     left: 1vw;
 }
 .prod-chairs .text-pr{
-    margin-left: 4vw;
+    margin-left: 3vw;
 }
 .text-pr p:nth-of-type(1){
 font-size: 1.3em;
@@ -322,4 +327,121 @@ line-height: 7vh;
 .img-blog p{
     line-height: 5vh;
     margin-left: 1.4vw;
+}
+nav{
+    background-color: #fef4ea;
+}
+.Subscribe-co{
+    display: flex;
+    height: 47vh;
+    align-items: center;
+}
+.Subscribe-co img{
+    height: 55vh;
+    position: relative;
+    bottom: 12vh;
+    width: 33vw;
+}
+.Subscribe-co label{
+    color: rgb(30, 92, 74);
+    font-size: 1.3em;
+}
+.Subscribe-co .ml{
+    margin-left: 5vw;
+    margin-right: 0.7vw;
+    color: #a1a1a1;
+}
+.Subscribe-co input:nth-of-type(1){
+    height: 7vh;
+    margin-left: 5vw;
+    width: 18vw;
+    border-radius: 10px;
+    border:solid 1.7px #c4c4c4;
+}
+.Subscribe-co input:nth-of-type(2){
+    height: 7vh;
+    margin-left: 1vw;
+    width: 18vw;
+    border-radius: 10px;
+    border:solid 1.7px #c4c4c4;
+}
+.Subscribe-co ::placeholder{
+    font-size: 1.1em;
+    color: #868686;
+}
+.Subscribe-co span i{
+    background-color: rgb(30, 92, 74);
+    height: 7vh;
+    width: 6vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3vw;
+    color: white;
+    margin-left: 1vw;
+}
+.Subscribe-co div{
+    display: flex;
+    width: 62vw;
+}
+.foot{
+    margin-left: 5vw;
+}
+.foot h1{
+    color: rgb(30, 92, 74);
+    font-size: 2.6em;
+    font-weight: 500;
+}
+.foot div{
+    margin-top: 3.5vh;
+    display: flex;
+    height: 30vh;
+}
+.foot-p{
+    width: 35%;
+    line-height: 5vh;
+    color: rgb(112, 93, 93);
+}
+.foot-links{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    line-height: 8.5vh;
+}
+.foot-links a{
+    text-decoration: none;
+    color: rgb(36, 33, 33);
+    margin-top:-2vh;
+}
+.icos{
+    height: 20vh;
+    margin-bottom: -10vh
+}
+.icos i{
+    margin-right:2vw ;
+    background-color: #ddd8d8;
+    width: 4vw;
+    height:8vh;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(15, 101, 77);
+    cursor: pointer;
+}
+.foot hr{
+    border-color:rgb(236, 228, 228)
+}
+.cop{
+    color: rgb(112, 93, 93);
+    display: flex;
+}
+.cop a{
+    text-decoration:none ;
+    color: rgb(112, 93, 93);
+    margin-left: 2vw;
+}
+.cop p{
+    width: 70%;
 }
