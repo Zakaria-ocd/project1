@@ -65,10 +65,10 @@
     font-weight:600 ;
     margin-top: 2vh;
     border-radius: 50px;
-    height:8vh;
+    height:9vh;
     width: 11vw;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     margin-top: 6vh;
 }
 .button-content1{
@@ -101,7 +101,7 @@
     height: 82vh;
     width: 60vw;
 }
-@media screen and (max-width: 446px){
+@media screen and (max-width: 576px){
     .home-page{
         height: 100vh;
         width:100%;
@@ -144,25 +144,40 @@
         margin-top: 3vh;
     }
     .button-content1{
-        flex-basis: 25vw;
+        flex-basis: 37vw;
     }
     .button-content2{
-        flex-basis: 25vw;
+        flex-basis: 37vw;
         margin-left: 3vw;
+    }
+    .nav-bar a{
+        font-size:0.9rem ; 
+    }
+    .shop-page{
+        display: flex;
+        flex-direction: column;
+        height:300vh;
+    }
+    .material{
+        height: 55vh;
+        width: 100%;
+    }
+    .material-button{
+        
     }
 } 
 .shop-page{
     width: 100%;
-    height: 100vh;
     display: flex;
+    height: 100vh;
 }
 .material{
     margin-top: 14vh;
     margin-left: 5vw;
-    width:20% ;
+    
 }
 .material h1{
-    font-weight: 500;
+    font-weight: 100;
     font-size: 2.4em;
 }
 .material pre{
@@ -187,7 +202,7 @@
     height:8vh;
     width: 11vw;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 .shop-page img{
     margin-top: 14vh;
