@@ -13,7 +13,7 @@
 .head-home{
     display: flex;
     align-items: center;
-    height: 14vh;
+    height: 16vh;
 }
 .title-pro h1{
     color: white;
@@ -23,14 +23,17 @@
     margin-left: 5vw;
 }
 .nav-bar{
-    flex-basis: 46vw;
+    flex-basis: 48vw;
 }
 .nav-bar a{
     margin-left: 3vw;
-    color: rgb(255, 255, 255);
+    color: rgb(223, 214, 214);
     text-decoration: none;
+    font-size: 1.1rem;
 }
-
+.nav-bar a:hover{
+    color: white;
+}
 .icons-home i{
     color: white;
     height: 2vh;
@@ -41,7 +44,8 @@
     flex-basis: 9vw;
     display: flex;
     justify-content: center;
-    margin-left: 3vw;
+    margin-left: 2vw;
+    align-items: center;
 }
 .content h1{
     margin-left: 5vw;
@@ -54,7 +58,7 @@
     color:  rgb(146, 144, 144);
     font-weight: 500;
     line-height: 3.7vh;
-    
+    margin-top: 6vh;
 }
 .content button{
     cursor: pointer;
@@ -65,18 +69,27 @@
     width: 11vw;
     text-align: center;
     font-size: 1.2em;
+    margin-top: 6vh;
 }
 .button-content1{
     color: rgb(41, 38, 38);
     margin-left: 5vw;
-    background-color: rgb(228, 180, 6);
+    background-color: rgb(219, 173, 9);
     border: none;
+}
+.button-content1:hover{
+    background-color: rgb(205, 162, 7);
+
 }
 .button-content2{
     background-color: rgb(30, 92, 74);
     border: 1px solid rgb(127, 126, 126);
     color: white;
     margin-left: 0.5vw;
+}
+.button-content2:hover{
+    border: 1px solid white;
+
 }
 .body-home{
     display: flex;
@@ -160,8 +173,11 @@
     width: 28vw;
     text-align: justify;
 }
-.material-button{
+.material-button:hover{
     background-color: black;
+}
+.material-button{
+    background-color: rgb(37, 35, 35);
     color: white;
     cursor: pointer;
     font-weight:600 ;
@@ -369,6 +385,13 @@ line-height: 7vh;
     height: 40vh;
     border-radius: 10%;
 }
+.blog img:hover{
+    mix-blend-mode:multiply;
+}
+.blog a{
+    color: black;
+    text-decoration: none;
+}
 .imgs-blog{
     display: flex;
     margin-top: 10vh;
@@ -391,7 +414,7 @@ nav{
 .Subscribe-co img{
     height: 55vh;
     position: relative;
-    bottom: 12vh;
+    bottom: 17vh;
     width: 33vw;
 }
 .Subscribe-co label{
@@ -409,6 +432,18 @@ nav{
     width: 18vw;
     border-radius: 10px;
     border:solid 1.7px #c4c4c4;
+    font-size: 1.1em;
+}
+.Subscribe-co input:nth-of-type(1):focus{
+    border:solid 2px rgb(30, 92, 74);
+    padding-left: 0.6vw;
+    outline: none;
+}
+.Subscribe-co input:nth-of-type(2):focus{
+    border:solid 2px rgb(30, 92, 74);
+    padding-left: 0.6vw;
+    outline: none;
+    box-shadow: #b8b8b8;
 }
 .Subscribe-co input:nth-of-type(2){
     height: 7vh;
@@ -416,9 +451,10 @@ nav{
     width: 18vw;
     border-radius: 10px;
     border:solid 1.7px #c4c4c4;
+    font-size: 1.1em;
+    padding-left: 0.6vw;
 }
 .Subscribe-co ::placeholder{
-    font-size: 1.1em;
     color: #868686;
 }
 .Subscribe-co span i{
@@ -496,4 +532,103 @@ nav{
 }
 .cop p{
     width: 70%;
+}
+.contact-form{
+    height: 150vh;
+    background-color: #fef4ea;
+}
+.cont-lis{
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+}
+.cont-opts{
+    display: flex;
+    margin-top: 20vh;
+    height: 10vh;
+}
+.cont-opts>div{
+    display: flex;
+    align-items: center;   
+}
+.cont-opt{
+    margin-right:2vw;
+    margin-left: 2vw;
+}
+.cont-opts:nth-of-type(1):nth-of-type(1){
+    margin-left: -2vw;
+}
+.cont-opts:nth-of-type(1) span{
+    color:  rgb(106, 104, 104);
+    font-size: 1.05rem;
+}
+.cont-name{
+    display: flex;
+    height: 20vh;
+    align-items: end;
+    justify-content: space-between;
+}
+.cont-name input{
+    width: 25.4vw;
+    height: 6vh;
+    border-radius: 10px;
+    border:1.5px solid rgb(216, 213, 213);
+    padding-left: 1vw;
+    font-size: 1.2rem;
+    margin-top: 1.2vh;
+}
+.contact-form>div{
+    margin: 0 22vw 0 22vw;
+}
+.cont-adr{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cont-adr input{
+    height: 6vh;
+    border-radius: 10px;
+    border:1.5px solid rgb(216, 213, 213);
+    padding-left: 1vw;
+    font-size: 1.2rem;
+    margin-top: -1.5vh;
+}
+.cont-msg{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+.cont-msg textarea{
+    border-radius: 10px;
+    border:1.5px solid rgb(216, 213, 213);
+    padding-left: 1vw;
+    font-size: 1.2rem;
+    padding-top: 1.6vh;
+    margin-top: 1.5vh;
+}
+.contact-form button{
+    background-color: rgb(23, 22, 22);
+    color: white;
+    cursor: pointer;
+    font-weight:600 ;
+    margin-top: 4vh;
+    border: none;
+    border-radius: 50px;
+    height:9vh;
+    width: 16vw;
+    text-align: center;
+    font-size: 1.2em;
+}
+.cont-opt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(30, 92, 74);
+    height: 8vh;
+    width: 4.4vw;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 1.1em;
+    color: white;
 }

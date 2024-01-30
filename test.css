@@ -1,0 +1,56 @@
+.bxs1,.bxs2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vh;
+}
+.bxs1>div,.bxs2>div{
+    width: 70px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 10%;
+    opacity: 0%;
+    animation-fill-mode: forwards;
+}
+.bx1{
+    animation-name: anim;
+    animation-delay: 1s;
+    animation-duration: 1s;
+}
+.bx2{
+    animation-name: anim;
+    animation-delay: 2s;
+    animation-duration: 1s;
+}
+.bx3{
+    animation-name: anim;
+    animation-delay: 3s;
+    animation-duration: 1s;
+}
+.bx4{
+    animation-name: anim;
+    animation-delay: 4s;
+    animation-duration: 1s;
+}
+.bx5{
+    animation-name: anim;
+    animation-delay: 5s;
+    animation-duration: 1s;
+}
+.bx6{
+    animation-name: anim;
+    animation-delay: 6s;
+    animation-duration: 1s;
+}
+@keyframes anim{
+    from{
+        transform: translateY(-25vh);
+    }
+    to{
+        transform: translateY(0vh);
+        opacity: 100%;
+    }
+}
+/* p.par{
+    background-color: aqua;
+} */
