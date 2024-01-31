@@ -605,14 +605,15 @@ nav{
     font-size: 1.1em;
     color: white;
 }
-@media screen and (max-width: 576px){
+@media screen and (max-width: 426px){
     .home-page{
         height: 100vh;
         width:100%;
     }
     .nav-bar {
           align-self: center;
-          margin-top: 2vh; 
+          margin-top: 4vh;
+          margin-left: -6vw; 
     }
     .title-pro{
         flex-basis: 65vw;
@@ -621,7 +622,7 @@ nav{
     .icons-home i{
         margin-left: 5vw;
         position: relative;
-        top: -8.4vh;
+        top: -10vh;
         left: 35vw;
     }
     .head-home{
