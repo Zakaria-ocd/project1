@@ -345,10 +345,10 @@ line-height: 7vh;
 }
 .blog-t h1{
     margin-left: 6vw;
-    font-weight: 100;
 }
 .blog-t p{
     margin-left: 65vw;
+    text-decoration: underline;
 }
 .blog-t a{
     color: black;
@@ -709,29 +709,120 @@ nav{
     .images-side{
         width: 90%;
         margin-left: 5vw;
+        order: 2;
     }
     .help-page{
        flex-direction: column;
-        height: 250vh;
+        height: 220vh;
+    }
+    .images-side{
+        margin-top:30vh ;
     }
     .images-side .img1{
-        height: 20vh;
-        width: 35vw;
-        border-radius: 20px;
+        height: 55vh;
+        width: 53vw;
+        margin-left: -3vw;
     }
     .images-side .img2{
     position: relative;
-    bottom: 53.8vh;
+    top: -54vh;
     border-radius: 20px;
-    margin-left: 1.5vw;
-    width: 18vw;
+    left: 52vw;
+    width: 34vw;
+    height: 13vh;
     }
     .images-side .img3{
         position: relative;
-        width: 27vw;
-        height: 61vh;
+        width: 51vw;
+        height: 45vh;
         border-radius: 20px;
-        bottom:50vh ;
-        left: 28vw;
+        bottom:52vh ;
+        left: 36vw;
+    }
+    .description-side{
+        width: 100%;
+    }
+    .description-side h1{
+        margin-left: 4vw;
+        
+    }
+    .description-side p{
+        width:90%;
+        margin-left: 2vw;     
+    }
+    .material-button{
+        margin-top: -1vh;
+        margin-left: 2vw;
+        width: 37vw;
+
+    }
+    .li1-2{
+        flex-direction: column;
+        margin-bottom: 4vh;
+        margin-left: 7vw;
+        width: 70%;
+    }
+    .li3-4{
+        flex-direction: column;
+        margin-left: 7vw;
+        width: 70%;
+        
+    }
+    .li-2,.li-4{
+        margin-left: 0vw;
+        margin-top: 4vh;
+    }
+    .prod-chairs{
+        flex-direction: column;
+        width: 100%;
+        height: 110vh;
+        align-items:normal;
+    }
+    .elem{
+        margin-left: 1vw;
+        width: 100%;
+        margin-bottom: 12vh;
+        margin-right: -3vw;
+        font-size: 0.8rem;
+    }
+    .PR{
+        height: 18vh;
+        width: 30vw;
+    }
+    .cont{
+        width: 25vw;
+        height: 13vh;  
+    }
+    .prod-chairs .text-pr{
+        margin-left: 5vw; 
+    }
+    .blog{
+        height: 200vh;
+    }
+    .blog-t{
+        flex-direction: column;
+        align-items: start;
+    }
+    .blog-t h1{
+        margin-left: 2vw;
+        font-weight: 100;
+    }
+    .blog-t p{
+        margin-left: 2vw;
+        margin-top: 2vh;       
+    }
+    .blog img{
+        height: 40vh;
+        width: 84vw;
+        margin-top: 7vh;
+    }  
+    .imgs-blog{
+        flex-direction: column;
+        margin-top: 0vh;
+    }
+    .img-blog p{
+        line-height: 4vh;
+        font-size:0.88rem ;
+        text-align: center;
     }
 }
