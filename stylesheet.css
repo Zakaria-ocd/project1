@@ -17,8 +17,11 @@
     cursor: pointer;
 }
 .shop-i2{
-    margin-left: -2vw;
-    margin-right: 4vw;
+    margin-left:1.8vw;
+    margin-right: 2vw;
+}
+.list div{
+    display: flex;
 }
 .head-home {
     display: flex;
@@ -445,6 +448,7 @@ nav{
     font-size: 1.3vw;
     color: white;
     margin-left: 1vw;
+    cursor: pointer;
 }
 .Subscribe-co div{
     display: flex;
@@ -830,6 +834,8 @@ nav{
     .Subscribe-co{
         flex-direction: column;
         height: 100vh;
+        width: 100%;
+        align-items: normal;
     }
     .Subscribe-co form{
         order: 2;
@@ -840,44 +846,30 @@ nav{
     }
     .Subscribe-co div{
         flex-direction: column;
-        width: 62vw;
+        width: 100%;
     }
     .Subscribe-co label{
-        color: rgb(30, 92, 74);
-        font-size: 1.3em;
-        margin-top: 10vh;
+        font-size: 1.4rem;
     }
-    .Subscribe-co .ml{
-        margin-left: 5vw;
-        margin-right: 0.7vw;
-        color: #a1a1a1;
-    }
+    
     .Subscribe-co input:nth-of-type(1){
-        height: 7vh;
         margin-left: 5vw;
-        width: 18vw;
-        border-radius: 10px;
-        border:solid 1.7px #c4c4c4;
-        font-size: 1.1em;
-    }
-    .Subscribe-co input:nth-of-type(1):focus{
-        border:solid 2px rgb(30, 92, 74);
-        padding-left: 0.6vw;
-        outline: none;
-    }
-    .Subscribe-co input:nth-of-type(2):focus{
-        border:solid 2px rgb(30, 92, 74);
-        padding-left: 0.6vw;
-        outline: none;
-        box-shadow: #b8b8b8;
+        width: 72vw;
     }
     .Subscribe-co input:nth-of-type(2){
-        height: 7vh;
-        margin-left: 1vw;
-        width: 18vw;
-        border-radius: 10px;
-        border:solid 1.7px #c4c4c4;
-        font-size: 1.1em;
-        padding-left: 0.6vw;
+        margin-left: 5vw;
+        width: 72vw;
+        margin-top: 3vh;
     }
+    .Subscribe-co span i{
+        width: 19vw;
+        font-size: 4.5vw;
+        margin-left: 5vw;
+        margin-top: 3vh;
+    }
+    .Subscribe-co div{
+        display: flex;
+        width: 62vw;
+    }
+    
 }
