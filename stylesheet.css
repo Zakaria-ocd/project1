@@ -46,7 +46,7 @@ color: white;
     list-style: none;
     gap: 4vw;
 }   
-#toggler, label{
+#toggler,.head-home label{
     display: none;
 }
 label i{
@@ -459,33 +459,41 @@ nav{
 }
 .foot h1{
     color: rgb(30, 92, 74);
-    font-size: 2.6em;
-    font-weight: 500;
+    font-size: 2.6rem;
+    margin-top: -8vh;
+    margin-bottom: 3vh;
 }
-.foot div{
-    margin-top: 3.5vh;
+.side-p-i{
     display: flex;
-    height: 30vh;
+    flex-direction: column;
+    font-size: 1rem;
 }
 .foot-p{
-    width: 35%;
     line-height: 5vh;
     color: rgb(112, 93, 93);
 }
 .foot-links{
     display: flex;
     flex-direction: column;
-    width: 15%;
-    line-height: 8.5vh;
+    line-height: 6.9vh;
 }
 .foot-links a{
     text-decoration: none;
     color: rgb(36, 33, 33);
-    margin-top:-2vh;
+    margin-left:7vw ;
 }
 .icos{
-    height: 20vh;
-    margin-bottom: -10vh
+    height: 15vh;
+    margin-top: 5vh;
+    display: flex;
+}
+.side-p-i-a{
+    display: flex;
+    gap: 3vw;
+}
+.side-a{
+    display: flex;
+
 }
 .icos i{
     margin-right:2vw ;
@@ -505,14 +513,17 @@ nav{
 .cop{
     color: rgb(112, 93, 93);
     display: flex;
+    height: 15vh;
 }
 .cop a{
     text-decoration:none ;
     color: rgb(112, 93, 93);
     margin-left: 2vw;
+    line-height: 4vh;
 }
 .cop p{
     width: 70%;
+    line-height: 4vh;
 }
 .contact-form{
     height: 150vh;
@@ -614,6 +625,7 @@ nav{
     color: white;
 }
 @media screen and (max-width: 426px){
+    
     .menu{
         width: 100%;
         max-height: 0;
@@ -629,10 +641,10 @@ nav{
         display: flex;
         gap: 10vw;
     }
-    label{
+    .head-home label{
         display: inline-flex;
     }
-        #toggler:checked~.menu{
+    #toggler:checked~.menu{
         max-height: 100%;
     }
     .list{
@@ -862,7 +874,7 @@ nav{
         margin-top: 3vh;
     }
     .Subscribe-co span i{
-        width: 19vw;
+        width: 18vw;
         font-size: 4.5vw;
         margin-left: 5vw;
         margin-top: 3vh;
@@ -871,5 +883,58 @@ nav{
         display: flex;
         width: 62vw;
     }
-    
+    .foot h1{
+        margin-top: -3vh;
+        margin-bottom: 3vh;
+    }
+    .foot-p{
+        font-size: 0.85rem;
+    }
+    .foot-links{
+        flex-direction: row;
+        margin-left:-7vw ;
+    }
+    .foot-links a{
+        margin-left:6vw ;
+        font-size: 0.8rem;
+    }
+    .side-p-i-a{
+        gap: 3vw;
+        flex-direction: column;
+    }
+    .side-a{
+        display: flex;
+        flex-direction: column;
+    }
+    .icos i{
+        width: 15vw;
+    }
+    .foot hr{
+        border-color:rgb(236, 228, 228);
+        width:100%;
+    }
+    .cop{
+        flex-direction: column;
+        height: 25vh;
+        font-size: 0.9rem;
+    }
+    .cop a{
+        text-decoration:none ;
+        color: rgb(112, 93, 93);
+        margin-left: 2vw;
+        line-height: 4vh;  
+        font-size: 0.8rem; 
+    }
+    .cop div{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3vh;
+        margin-left: -3vw;
+        margin-right:3vw;
+        height: 15vh;
+    }
+    .cop p{
+        width: 100%;
+        line-height: 4vh;
+    }
 }
