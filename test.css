@@ -105,3 +105,46 @@
     padding: 20px;
     }
 }
+.test{
+    height: 100px;
+    background-color: aqua;
+    width: 10vw;
+    margin: 100px;
+}
+.test:hover{
+    animation-name: animbar;
+    animation-duration: 2s;
+}
+
+.p-block {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+  }
+  
+  .project-block {
+    margin-left: 20px;
+    display: inline-block;
+    width: 20%;
+    background-color: black;
+    height: 100px;
+  }
+  
+  .project-block:hover {
+    animation-name:animbar;
+    animation-duration: 3s;
+  }
+  @keyframes animbar{
+    0%{
+        margin-top: -0px;
+        filter:hue-rotate(0deg);
+        height: 100px;
+    }
+
+    100%{
+        margin-top: -40px;
+        height: 140px;
+        filter:hue-rotate(340deg);
+    }
+}
