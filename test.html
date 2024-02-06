@@ -9,6 +9,54 @@
       src="https://kit.fontawesome.com/1c6764a7b4.js"
       crossorigin="anonymous"
     ></script>
+    <style>
+      div#dashBoard{
+      background: url(../img/homepage_dashboard_image.svg) no-repeat;
+      background-size: contain;
+      height: 93.4rem;
+      width: 100%;
+      position: absolute;
+      left: -2rem;
+      top: -4rem;
+      }
+      div#dashBoard:hover{
+      transform: rotateY(-22deg) rotateX(-7deg) rotateZ(3deg);
+      transition: all 600ms;
+      }
+
+      div#dashCircle{
+      background: url(../img/graphic_circle_purple.svg) no-repeat;
+      background-size: contain;
+      height: 7.4rem;
+      width: 17%;
+      position: absolute;
+      left: -2rem;
+      top: 4rem;
+      z-index: -3;
+      }
+      div#dashCircle:hover{
+      top: -8rem;
+      transition: all 600ms;
+      }
+
+      div#dashTri{
+      background: url(../img/graphic_triangle.svg) no-repeat;
+      background-size: contain;
+      height: 6.4rem;
+      width: 17%;
+      position: absolute;
+      z-index: -3;
+      top: 17rem;
+      left: 30rem;
+      transform: rotateZ(39deg);
+      }
+      div#dashTri:hover{
+      transform: rotateZ(-71deg);
+      transition: all 600ms;
+      top: 18rem;
+      left: 29rem;}
+
+    </style>
 </head>
 <body>
   <!-- <div class="bxs1">
@@ -23,7 +71,7 @@
   </div>
   <p class="par">hhh</p>
   <h1 class="par">hihihi</h1> -->
-	<nav>
+	<!-- <nav>
 	<a href="#">LOGO</a> 
 		<label for="toggler">
 			<i class="fa fa-bars"></i>
@@ -56,6 +104,12 @@
   </div>
   <div class="project-block">
   </div>
+</div> -->
+<div class="col-lg-7 dasHb">
+  <div id="dashBoard"></div>
+  <div id="dashCircle"></div>
+  <div id="dashTri"></div>
 </div>
+
 </body>
 </html>
