@@ -724,6 +724,252 @@ nav {
   color: white;
   font-size: 2.5rem;
 }
+.description-person img{
+  height: 35vh;
+  width: 18vw;
+}
+.description-person{
+  display: flex;
+  flex-direction: column;
+  margin-left: 3vw;
+  margin-top: 8vh;
+}
+.team-part h1:first-child{
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+}
+.team-part{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40vh;
+}
+.team-part a:hover{
+  text-decoration: none;
+}
+.team-description{
+  display: flex;
+  margin-left: 5vw;
+}
+.description-person a:first-of-type{
+  color: black;
+  font-size:1.9rem;
+  margin-top: 6vh;
+}
+.description-person p:first-of-type{
+  color: rgb(101, 94, 94);
+  margin-top: 2vh;
+}
+.description-person p:last-of-type{
+  color: rgb(101, 94, 94);
+  margin-top: 6vh;
+  width: 18vw;
+}
+.description-person a:last-of-type{
+  color: rgb(24, 22, 22);
+  margin-top: 5vh;
+  font-weight: bold;
+}
+.testimonials img{
+  width: 5vw;
+  height: 10vh;
+  border-radius: 100%;
+  margin-top: 8vh;
+}
+.testimonials{
+  display: flex;
+  margin-top: 40vh;
+}
+.icos-test a{
+  text-decoration: none;
+}
+.icos-test i:hover{
+  background-color: rgb(30, 92, 74);
+  color: white;
+}
+.icos-test i{
+  background-color: #a29f9f75;
+  width: 3.5vw;
+  height: 7vh;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonials-infos h1{
+  font-weight: 400;
+}
+.testimonials-infos p:first-of-type{
+  text-align: center;
+  width: 50vw;
+  margin-top: 8vh;
+  color: rgb(101, 94, 94);
+}
+.testimonials-infos p:nth-of-type(2){
+  margin-top: 2vh;
+}
+.icos-test a{
+  color: black;
+}
+.icos-pagination  i{
+  font-size: 0.7rem;
+  margin-top: 8vh;
+  margin-right: 0.7vw;
+  color: #a29f9f75;
+  cursor: pointer;
+}
+.icos-pagination i:first-of-type{
+  color: rgb(30, 92, 74);
+}
+.icos-pagination i:nth-of-type(2):hover{
+  color: rgb(30, 92, 74);
+}
+.icos-pagination i:last-of-type:hover{
+  color: rgb(30, 92, 74);
+}
+.testimonials-infos p:last-of-type{
+  color: rgb(101, 94, 94);
+  margin-top: 1vh;
+}
+.testimonials div:first-of-type,
+.testimonials div:last-of-type{
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonials-infos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services-part{
+  display: flex;
+}
+.menu-prods{
+  margin-left: 10vw;
+  margin-top: 10vh;
+}
+.menu-prods img{
+  height: 25vh;
+}
+.menu-prods table{
+  border-collapse:collapse;
+  width: 80vw;
+}
+.menu-prods th{
+  border-bottom: 2px solid rgb(30, 92, 74);
+  padding: 7vh;  
+  font-size: 1.3rem;
+}
+
+.menu-prods td{
+  border-bottom: 0.1px solid rgb(176, 175, 174);
+  padding: 7vh;
+  text-align: center;
+}
+.menu-prods tr td:nth-of-type(2){
+  font-weight:bolder;
+  font-size: 1.4rem;
+}
+.quantity input{
+  height: 7vh;
+  width: 3.5vw;
+}
+.quantity input{
+  text-align: center;
+}
+.quantity i{
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.quantity div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-prods td:nth-of-type(2n+3){
+  color:rgb(80, 73, 73);
+}
+.form-cart{
+  display: flex;
+  margin-top: 15vh;
+}
+.form-cart .par{
+  display: flex;
+}
+.form-cart button{
+  color: white;
+  background-color: rgb(26, 23, 23);
+  border-radius: 20px;
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+.but-from-side1 button:first-of-type{
+width: 10vw;
+height: 7vh;
+}
+.but-from-side1 button:last-of-type{
+  width: 15vw;
+  height: 7vh;
+  margin-left: 10vw;
+  }
+.form-cart button:hover{
+  background-color: rgb(0, 0, 0);
+}
+.form-cart h1{
+  margin-top: 8vh;
+}
+.form-side1 p{
+  line-height: 8vh;
+}
+.form-side1 input{
+  height: 6vh;
+  width:25vw;
+  border-radius: 10px;
+  padding-left: 1vw;
+  border: solid 2px rgb(168, 168, 168); 
+  font-size: 1.05rem;
+}
+
+.but-from-side2 button{
+  width: 11vw;
+  height: 10vh;
+  border-radius: 27px;
+  line-height: 4vh;
+  margin-left: 2vw;
+}
+.form-side2{
+  margin-top: -8.6vh;
+  margin-left: 20vw;
+}
+.form-side2 hr{
+  margin-top: 1vh;
+  width: 21.4vw;
+  margin-left: -1vw;  
+}
+.form-side2 div:first-of-type{
+  margin-top: 8vh;
+}
+.form-side2 div:last-of-type{
+  margin-top: 3vh;
+}
+.form-side2 div:first-of-type p:last-of-type{
+  font-weight: bold;
+  margin-left: 7.2vw;
+}
+.form-side2 div:last-of-type p:last-of-type{
+  
+  margin-left: 9vw;
+  font-weight: bold;
+}
+.form-side2 button{
+  height: 9vh;
+  font-size: 1.4rem;
+  width: 20vw;
+  margin-top: 8vh;
+  border-radius:30px;
+}
 @media screen and (max-width: 426px) {
   .menu {
     width: 100%;

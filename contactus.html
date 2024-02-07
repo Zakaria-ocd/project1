@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="stylesheet.css" />
     <title>Furni</title>
+    <style>
+      .list .li-nav:nth-child(6) a::after{
+    content: "";
+    position: absolute;
+    height: 0.7vh;
+    background-color: rgb(255, 204, 0);
+    width: 100%;
+    left:0;
+    bottom: -1vh;
+    border-radius: 1px;
+    opacity: 1;
+    pointer-events: none;
+    transition-duration: 0.3s;
+    }
+    </style>
     <script
       src="https://kit.fontawesome.com/1c6764a7b4.js"
       crossorigin="anonymous"
@@ -18,20 +33,20 @@
           <i class="fa fa-bars togg"></i>
         </label>
         <input type="checkbox" id="toggler" name="">
-          <div class="menu">
-            <ul class="list">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#">Shop</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="contactus.html">Contact us</a></li>
-              <div>
+        <div class="menu">
+          <ul class="list">
+            <li class="li-nav"><a href="index.html">Home</a></li>
+            <li class="li-nav"><a href="shop.html">Shop</a></li>
+            <li class="li-nav"><a href="aboutus.html">About Us</a></li>
+            <li class="li-nav"><a href="services.html">Services</a></li>
+            <li class="li-nav"><a href="blog.html">Blog</a></li>
+            <li class="li-nav"><a href="contactus.html">Contact us</a></li>
+            <div>
               <li><a href="#"><i class="fa-solid fa-user shop-i1"></i></a></li>
-              <li><a href="#"><i class="fa-solid fa-cart-shopping shop-i2"></i></a></li>
-              </div>
-            </ul>
-          </div>
+              <li><a href="cart.html"><i class="fa-solid fa-cart-shopping shop-i2"></i></a></li>
+            </div>
+          </ul>
+        </div>
       </div>
       <div class="body-home">
         <div class="content">
