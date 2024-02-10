@@ -58,7 +58,7 @@
     margin: 0; 
     padding: 0;
     }
-    nav {
+    /* nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -147,4 +147,13 @@
         height: 140px;
         filter:hue-rotate(340deg);
     }
+} */
+pre {
+    white-space:pre-line;
+}
+img{
+   
+}
+img:hover{
+    filter: grayscale(0%);
 }
