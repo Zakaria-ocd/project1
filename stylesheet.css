@@ -996,7 +996,7 @@ nav {
   height: 75vh;
   width: 30%;
   border-radius: 13px;
-  margin: 5% auto;
+  margin: 3% auto;
   background-image: url(images/watercolor-emerald-background_23-2150270303.avif);
   background-size:cover;
   display: flex;
@@ -1017,7 +1017,7 @@ nav {
   height: 7vh;
   border-radius: 8px; 
   font-size: 1.1rem;
-  padding-left:1vw ;
+  padding-left:15px ;
   outline: none;
   border: none;
 }
@@ -1080,6 +1080,29 @@ nav {
 }
 .login-part input{
   background-color: #88858529;
+}
+.btnHome{
+  text-decoration: none;
+}
+.btnHome button:hover{
+  background-color: white;
+  color: rgb(55, 144, 119);
+}
+.btnHome button{
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: none;
+  background-color: rgb(55, 144, 119);
+  border-radius: 10px;
+  height: 30px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media screen and (max-width: 426px) {
   .menu {
@@ -1409,5 +1432,16 @@ nav {
   .cop p {
     width: 100%;
     line-height: 4vh;
+  }
+  .form-sing,.form-login{
+    margin-top: -4vh;
+    width: 90%;
+    top: 10vh;
+  }
+  .btnHome button{
+    margin-top: 4vh;
+    width: 60px;
+    height: 40px;
+    font-size: 1.1em;
   }
 }
