@@ -27,12 +27,16 @@ document.querySelector(".afficher").addEventListener("click", function (e) {
         let tdage=document.createElement("td")
         tdage.textContent=item.age
         trdata.append(tdage)
-            document.querySelector("table").style.display="block";
+        document.querySelector("table").style.display="block";
+        let tdelete=document.createElement("button")
+        tdelete.textContent="delete"
+        let tddel=document.createElement("td")
+        tddel.append(tdelete)
+        trdata.append(tddel)
+        tdelete.classList.add("btndel")
+        tdelete.addEventListener("click",function(e){
+          e.preventDefault;
+          trdata.removeAttribute
+        })
     });
 });
-document.querySelector(".delete").addEventListener("click",function(e){
-  e.preventDefault;
-  nom.value=""
-  prenom.value=""
-  age.value=""
-})

@@ -47,12 +47,8 @@ td{
     padding-inline:60px;
     padding-block: 10px;
 }
-.btndel{
-    width: 100px;
-    height: 30px;
-    border-radius: 10px;
-    background-color: cornflowerblue;
-    color: white;
-    border: none;
-    cursor: pointer;
+.success{
+    background-color: green;
+    width: 150px;
+    height: 80px;
 }
