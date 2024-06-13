@@ -1,0 +1,44 @@
+{
+    "prods":[
+        {
+            "image":"images/product-1.png",
+            "nom":"Nordic Chair",
+            "price":50
+        },
+        {
+            "image":"images/product-2.png",
+            "nom":"Kruzo Aero Chair",
+            "price":78
+        },
+        {
+            "image":"images/product-3.png",
+            "nom":"Ergonomic Chair",
+            "price":43
+        },
+        {
+            "image":"images/greensofa11-removebg-preview.png",
+            "nom":"Wishbone Chair",
+            "price":88
+        },
+        {
+            "image":"images/istockphoto-144293437-612x612-removebg-preview.png",
+            "nom":"Wassily Chair",
+            "price":20
+        },
+        {
+            "image":"images/teramo-biscuit-shade-flare-back-cushioned-oak-dining-chair-set-of-two-removebg-preview.png",
+            "nom":"Panton Chair",
+            "price":18
+        },
+        {
+            "image":"images/lovepik-sofa-chair-png-image_401659042_wh1200-removebg-preview.png",
+            "nom":"Egg Chair",
+            "price":33
+        },
+        {
+            "image":"images/5cb7cc293f980eeaabfdc4685c819f33-removebg-preview.png",
+            "nom":"Womb Chair",
+            "price":61
+        }
+    ]
+}

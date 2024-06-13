@@ -1108,6 +1108,10 @@ nav {
   align-items: center;
   justify-content: center;
 }
+.plusQuantity,.minusQuantity{
+  background-color:#fef4ea;
+  border: none;
+}
 @media screen and (max-width: 826px) {
   .menu {
     width: 100%;
@@ -1549,6 +1553,12 @@ nav {
     width:45vw;
   }
 
+}
+.bgRemove{
+  border: none;
+  outline: none;
+  background-color: #fef4ea;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 426px) {

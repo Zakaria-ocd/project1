@@ -38,7 +38,8 @@
           <h1 class="shop-h1">Cart</h1> 
         </div>
         <div class="menu-prods">
-            <table>
+            <table class="prodTable">
+              <thead>
                 <tr>
                     <th>Image</th>
                     <th>Product</th>
@@ -47,34 +48,14 @@
                     <th>Total</th>
                     <th>Remove</th>
                 </tr>
-                <tr>
-                    <td><img src="images/product-1.png" alt=""></td>
-                    <td>Product 1</td>
-                    <td>$49.00</td>
-                    <td class="quantity"><div><i class="fa-solid fa-minus"></i>
-                    <input type="text" value="1">
-                    <i class="fa-solid fa-plus"></i></div>
-                    </td>
-                    <td>$49.00</td>
-                    <td><i class="fa-solid fa-xmark"></i></td>
-                </tr>
-                <tr>
-                    <td><img src="images/product-2.png" alt=""></td>
-                    <td>Product 2</td>
-                    <td>$64.00</td>
-                    <td class="quantity"><div><i class="fa-solid fa-minus"></i>
-                        <input type="text" value="2">
-                        <i class="fa-solid fa-plus"></i></div>
-                    </td>
-                    <td>$64.00</td>
-                    <td><i class="fa-solid fa-xmark"></i></td>
-                </tr>
+              </thead>
+              <tbody></tbody>
             </table>
             <div class="form-cart">
                 <div class="form-side1">
                     <div class="but-from-side1">
                         <button>Update Cart</button>
-                        <button>Continue Shopping</button>
+                        <button class="continueShopping">Continue Shopping</button>
                     </div>
                     <div>
                         <h1>Coupon</h1>
@@ -152,6 +133,7 @@
                 <a href="#">Privacy policy</a>
                 </div>
               </div>
-        </div>          
+        </div>  
+      <script src="cart.js"></script>        
   </body>
 </html>
